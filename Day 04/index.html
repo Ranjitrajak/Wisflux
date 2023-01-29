@@ -1,0 +1,98 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="cal">
+    <label>First Number:</label> <input type="text" id="num1"/><br><br/>
+     <label>Second Number:</label> <input type="text" id="num2"/><br><br/>
+     <button onclick="calDiv()">Divide</button>
+     <button onclick="calMulti()">Multiply</button><br><br/>
+    <label>Result</label> <input type="text" id="result"><br></br>
+  </div>
+
+  <div class="triangle">
+    <form>
+      Side 1: <input type="text" id="side1"><br></br>
+      Side 2: <input type="text" id="side2"><br></br>
+      Side 3: <input type="text" id="side3"><br></br>
+      <input type="button" value="Calculate" onclick="triangleArea()">
+    </form> 
+    
+   <p>Area: <span id="area"></span></p>
+
+  </div>
+  <div class="temperature">
+    Temperature: <input type="text" id="temp">
+     <br>
+     <input type="radio" name="unit" value="celsius" checked onclick="convertTemperature()"> Celsius
+     <input type="radio" name="unit" value="fahrenheit" onclick="convertTemperature()"> Fahrenheit
+     <br>
+   </form>
+   
+   <p>Converted Temperature: <span id="convertedTemp"></span></p>
+
+  </div>
+
+  <div class="valueCheck">
+    <form>
+      Number: <input type="text" id="num">
+      <br>
+      <input type="button" value="Calculate" onclick="difference()">
+    </form>
+    
+     <p>Difference: <span id="diff"></span></p>
+
+  </div>
+  <div class="large">
+    <form>
+      Number 1: <input type="text" id="num1">
+      <br>
+      Number 2: <input type="text" id="num2">
+      <br>
+      Number 3: <input type="text" id="num3">
+      <br>
+      <input type="button" value="Find Largest" onclick="findLargest()">
+    </form>
+    
+    <p>Largest Number: <span id="largest"></span></p>
+
+  </div>
+  <div class="grade">
+    <form>
+      Total Marks: <input type="text" id="marks">
+      <br>
+      Exam Type: <select id="examType">
+        <option value="midterm">Midterm</option>
+        <option value="final">Final</option>
+      </select>
+      <br>
+      <input type="button" value="Check Grade" onclick="checkGrade()">
+    </form>
+    
+    <p>A+ Grade: <span id="result1"></span></p>
+
+  </div>
+  
+  <script src="./calculate.js"></script>
+    
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

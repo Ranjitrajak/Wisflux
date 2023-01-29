@@ -1,0 +1,26 @@
+#image{
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.Info{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.item{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 10px 20px ;
+    background: #e4ab79;
+    padding: 20px; 
+
+}
+.username{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+
+}

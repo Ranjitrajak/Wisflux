@@ -1,0 +1,40 @@
+
+h1{
+    color: blue;
+    height: 2cm;
+   text-align: center;   
+}
+.split {
+    height: 80%;
+    margin-top: 5%;
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    width: 25%;
+    
+  }
+  
+  .right {
+    right: 0;
+    width: 75%;
+    
+    
+  }
+  .right >h2{
+    color:azure;
+    border-style: solid;
+    background-color: black;
+    padding: 5px;
+    
+    
+
+  }
+  .pannel{
+  
+    padding-left: 10%;
+  }

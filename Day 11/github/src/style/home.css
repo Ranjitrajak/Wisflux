@@ -1,0 +1,24 @@
+.profile{
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo>img{
+    height: 4em;
+    width: 2cm;
+}
+    
+.profile>input{
+    height:1cm ;
+    width: 6cm;
+    border: radius 500 rem;;
+    margin-bottom: 1cm;
+
+}
+.activity{
+    align-items: center;
+    text-align: center;
+}
